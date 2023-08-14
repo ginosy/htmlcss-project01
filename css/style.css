@@ -1,0 +1,255 @@
+/* INDEX CSS MERGE */
+
+.wrapper {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url(../images/top_banner_2.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+main {
+    width: 100%;
+    height: 100%; 
+    background-color: #0085e1;
+    background-image: url(../images/background_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top, center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.main-intro h1 {
+    font-size: 60px;
+    line-height: 70px;
+    padding-right: 20px;
+ }
+
+ .main-intro {
+    display: inline-block;
+    padding: 50px 100px;
+ }
+
+ main p {
+    font-size: 20px;
+    line-height: 30px;
+    width: fit-content;
+ }
+
+ main .main-quotes p {
+    display: inline-block;
+    padding: 50px 100px;
+    border-left: 4px solid var(--site-color-01);
+    padding-left: 20px;
+    margin: 10px 0;
+ }
+
+.image-columns {
+    display: flex;
+}
+
+.image-columns > * {
+    flex-basis: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.services {
+    background-color: transparent;
+    width: 400px;
+    height: 1000px;
+    margin: 25px;
+    border-radius: 15px;
+    font-family: system-ui;
+}
+
+.services-image {
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: contain;    
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.ser-1 {
+    background-image: url(../images/graphic_design.jpeg);
+}
+
+.ser-2 {
+    background-image: url(../images/photography.jpg);
+}
+
+.ser-3 {
+    background-image: url(../images/videography.jpg);
+}
+
+.services p {
+    padding: 10px;
+}
+
+.services ul {
+    padding: 30px;
+    font-family: system-ui;
+    font-size: 20px;
+    list-style-type: square;
+}
+
+.services a {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+/* INDEX CSS MERGE */
+
+:root {
+    --site-color-01: #0085e1;
+    --site-color-01-hover: #004271;
+}
+
+body {
+    background-color: #ffffff;;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+    font-family: system-ui;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    font-family: system-ui;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: system-ui;
+}
+
+a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+
+.header-main {
+    width: 100%;;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    padding-left: 15px;
+    display: flex;
+}
+
+.header-main-logo img {
+    height: 50px;
+    align-self: center;
+}
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    }
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 5px;
+    
+    }
+
+.header-main-nav li {
+    display: inline;
+    float: left;
+}
+
+.header-main-nav li a {
+    padding: 0 10px;
+    font-family: system-ui;
+    line-height: 60px;
+    font-weight: 600;
+    color: #000;
+}
+
+.header-main-nav li a:hover {
+   color: #0085e1
+}
+
+.header-main-sm {
+    width: fit-content;
+    height: 100%;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-main-sm-fb {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-fb:hover {
+    background-image: url(../images/facebook-color.png);
+    
+}
+
+.header-main-sm-ig {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-ig:hover {
+    background-image: url(../images/instagram-color.png);
+    
+}
+
+.dedication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
