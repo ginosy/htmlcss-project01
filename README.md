@@ -1,6 +1,6 @@
 # Project by Gino Sy
 
-GitHub Repository: https://ginosy.github.io/HTMLCSS-Project-01
+GitHub Repository: https://ginosy.github.io/htmlcss-project01/
 GitHub Pages: https://ginosy.github.io
 
 **Overview/Description**
